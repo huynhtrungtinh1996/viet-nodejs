@@ -18,10 +18,10 @@ app.get('/viet', (req, res) => {
     });
   }
   return res.send('Dm trễ giờ đi làm rồi.');
+  // return res.send('');
 });
 
 console.log('Running server.js...');
-console.log('Worker process started.');
 app.listen(PORT, '0.0.0.0', function () {
     console.log('Listening on *' + PORT);
 });
