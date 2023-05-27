@@ -12,7 +12,8 @@
 git config --global user.name "viettq" (Set your username)
 git config --global user.email "viettqdev@gmail.com" (Set your email address)
 
-git commit -am '<message>' . (Commit code hiện tại kèm message)
+git add .
+git commit -m '<message>' . (Commit code hiện tại kèm message)
 git push (Đẩy code lên git)
 git pull (Kéo code mới nhất về)
 
